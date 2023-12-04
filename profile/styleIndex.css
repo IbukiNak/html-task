@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.text-blue {
+    color: blue;
+}
+
+.text-red {
+    color: red;
+}
+
+.border {
+    border-bottom: 2px solid red;
+}
