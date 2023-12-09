@@ -1,0 +1,14 @@
+@charset "utf-8";
+    table, th, td{
+        border: solid black;
+        border-collapse: collapse;
+    }
+    th, td{
+        padding: 10px;
+    }
+    th{
+        background-color: aqua;
+    }
+    caption{
+        font-size: 200%;
+    }
