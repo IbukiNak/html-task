@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+body{
+    background-color: wheat;
+}
+
+header h1{
+    padding: 0.5rem;
+}
+header ul li {
+    width: 20%;
+    text-align: center;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+header ul li + li{
+    border-left: 3px solid black;
+}
+.global{
+    padding: 0.5rem;
+    background-color: gray;
+}
+/* パンくずリスト */
+.breadcrumbs {
+    display: flex;
+    list-style: none;
+}
+.breadcrumbs li::after{
+    content: ">";
+    padding: 0 0.5rem;
+}
+.breadcrumbs li:last-child::after{
+    content: "";
+}
+.breadcrumbs a:link{
+    color: blue;
+}
+.breadcrumbs a:visited{
+    color: blueviolet;
+}
+.breadcrumbs a:hover{
+    text-decoration: none;
+}
